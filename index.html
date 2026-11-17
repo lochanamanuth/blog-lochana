@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CobraFang | CTF Writeups & Security Blog</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Highlight.js Theme for Code Blocks -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand" onclick="showHome(event)">
+                <i class="fa-solid fa-terminal"></i>
+                <span>CobraFang<span class="accent">.sec</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#" onclick="showHome(event)" class="nav-item active" id="nav-home">Writeups</a>
+                <a href="https://lochana.online" class="nav-item">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Main Hub
+                </a>
+                <a href="https://github.com/lochanamanuth" target="_blank" rel="noopener noreferrer" class="nav-item">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+        
+        <!-- HOME VIEW: Search, Filters & Post Grid -->
+        <section id="home-view">
+            <div class="hero-header">
+                <div class="badge-line">
+                    <span class="status-dot"></span>
+                    <span>Lochana Manuth Bandara (@CobraFang)</span>
+                </div>
+                <h1>CTF Writeups & Security Research</h1>
+                <p>Walkthroughs, web exploitation notes, privilege escalation techniques, and offensive security scripts.</p>
+            </div>
+
+            <!-- Search & Category Filter Controls -->
+            <div class="controls-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="searchInput" placeholder="Search writeups, CVEs, tags (e.g., SQLi, Linux, THM)..." oninput="filterPosts()">
+                </div>
+
+                <div class="category-tabs" id="categoryTabs">
+                    <button class="tab-btn active" data-category="All" onclick="setCategory('All')">All</button>
+                    <button class="tab-btn" data-category="TryHackMe" onclick="setCategory('TryHackMe')">TryHackMe</button>
+                    <button class="tab-btn" data-category="Hack The Box" onclick="setCategory('Hack The Box')">Hack The Box</button>
+                    <button class="tab-btn" data-category="Blog" onclick="setCategory('Blog')">Blog</button>
+                    <button class="tab-btn" data-category="Notes" onclick="setCategory('Notes')">Notes & Tools</button>
+                </div>
+            </div>
+
+            <!-- Posts Grid -->
+            <div class="posts-grid" id="postsGrid">
+                <!-- Dynamically populated by app.js -->
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <i class="fa-regular fa-folder-open"></i>
+                <p>No matching writeups found.</p>
+            </div>
+        </section>
+
+        <!-- ARTICLE READER VIEW -->
+        <section id="article-view" style="display: none;">
+            <button class="back-btn" onclick="showHome(event)">
+                <i class="fa-solid fa-arrow-left"></i> Back to All Writeups
+            </button>
+
+            <article class="article-container">
+                <div class="article-meta-header" id="articleHeader"></div>
+                <div class="markdown-body" id="articleContent"></div>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Lochana Manuth Bandara (@CobraFang) &bull; Built for <a href="https://lochana.online">lochana.online</a></p>
+    </footer>
+
+    <!-- Marked.js (Markdown Parser) & Highlight.js (Code Syntax Highlighting) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

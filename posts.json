@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "thm-easy-peasy-walkthrough",
+    "title": "TryHackMe: Easy Peasy — Full Walkthrough",
+    "category": "TryHackMe",
+    "difficulty": "Easy",
+    "date": "2026-11-17",
+    "summary": "Port scanning, Enumerating hidden directories, analyzing source code leaks, and escalating privileges to root.",
+    "tags": ["Linux", "Enumeration", "Nmap", "Gobuster"],
+    "file": "easy-peasy.md"
+  },
+  {
+    "slug": "operation-slither-walkthrough",
+    "title": "TryHackMe: Operation Slither — Full Walkthrough",
+    "category": "TryHackMe",
+    "difficulty": "Easy",
+    "date": "2026-11-17",
+    "summary": "Quick-reference payloads and methodology for testing login forms, UNION-based extraction, and blind SQLi.",
+    "tags": ["SQLi", "WebApp", "OWASP", "Cheatsheet"],
+    "file": "operation-slither.md"
+  }
+]
