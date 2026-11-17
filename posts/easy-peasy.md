@@ -129,30 +129,29 @@ Finished
 Founded as whatever directory & opened on browser it.Enumerate the page source code
 
 ```
-|   |
-|---|
-|<!DOCTYPE html>|
-|<html>|
-|<head>|
-|<title>dead end</title>|
-|<style>|
-|body {|
-|background-image: url("https://cdn.pixabay.com/photo/2015/05/18/23/53/norway-772991_960_720.jpg");|
-|background-repeat: no-repeat;|
-|background-size: cover;|
-|width: 35em;|
-|margin: 0 auto;|
-|font-family: Tahoma, Verdana, Arial, sans-serif;|
-|}|
-|</style>|
-|</head>|
-|<body>|
-|<center>|
-|<p hidden>ZmxhZ3tmMXJzN19mbDRnfQ==</p>|
-|</center>|
-|</body>|
-|</html>|
-||
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>dead end</title>
+<style>
+body {
+background-image: url("https://cdn.pixabay.com/photo/2015/05/18/23/53/norway-772991_960_720.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 35em;
+margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<center>
+<p hidden>ZmxhZ3tmMXJzN19mbDRnfQ==</p>
+</center>
+</body>
+</html>
+
 ```
 
 I am looked at base64 encryption 
@@ -161,7 +160,7 @@ After that I am decrypt it and take flag 1
 
 ```
 $ echo -n "ZmxhZ3tmMXJzN19mbDRnfQ==" | base64 -d
-flag{f1rs7_fl4g} 
+flag{XXXXX_XXXX} 
 ```
 
 >**Further enumerate the machine, what is flag 2?**
@@ -199,7 +198,7 @@ This Flag Can Enter But Only This Flag No More Exceptions
 Using https://md5.gromweb.com decrypt it
 
 ```
-flag{1m_s3c0nd_fl4g}
+flag{XX_s3XXX_XXXg}
 ```
 
 >**Crack the hash with easypeasy.txt, What is the flag 3?**
@@ -338,7 +337,7 @@ synt{a0jvgf33zfa0ez4y}
 Founded the real flag using https://rot13.com
 
 ```
-flag{n0wits33msn0rm4l}
+flag{n0wXXXXXXn0rm4l}
 
 ```
 
@@ -425,6 +424,6 @@ drwxr-xr-x  3 root root 4096 Jun 13  2020 .local
 -rw-r--r--  1 root root   66 Jun 14  2020 .selected_editor
 root@kral4-PC:~# cat .root.txt
 cat .root.txt
-flag{63a9f0ea7bb98050796b649e85481845}
+flag{63a9f0ea7bbXXXXXXXXXXXXX5481845}
 
 ```
