@@ -1,6 +1,6 @@
 [
   {
-    "slug": "1",
+    "slug": "thm-easy-peasy-walkthrough",
     "title": "TryHackMe: Easy Peasy — Full Walkthrough",
     "category": "TryHackMe",
     "difficulty": "Easy",
@@ -10,7 +10,7 @@
     "file": "easy-peasy.md"
   },
   {
-    "slug": "2",
+    "slug": "thm-operation-slither-walkthrough",
     "title": "TryHackMe: Operation Slither — Full Walkthrough",
     "category": "TryHackMe",
     "difficulty": "Easy",
