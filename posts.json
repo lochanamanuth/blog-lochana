@@ -20,13 +20,13 @@
     "file": "operation-slither.md"
   },
   {
-    "slug": "thm-operation-slither-walkthrough",
-    "title": "TryHackMe: Operation Slither — Full Walkthrough",
+    "slug": "thm-bypass-disable-functions-walkthrough",
+    "title": "TryHackMe: Bypass Disable Functions — Full Walkthrough",
     "category": "TryHackMe",
-    "difficulty": "Easy",
-    "date": "2026-11-17",
-    "summary": "Level up your OSINT skill.",
-    "tags": ["OSINT", "Reconnaissance", "social platform"],
+    "difficulty": "Info",
+    "date": "2026-11-18",
+    "summary": "Practice bypassing disabled dangerous features that run operating system commands or start processes.",
+    "tags": ["PHP", "File Upload", "vulnerability"],
     "file": "operation-slither.md"
   }
 ]
