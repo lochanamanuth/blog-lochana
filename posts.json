@@ -18,5 +18,15 @@
     "summary": "Level up your OSINT skill.",
     "tags": ["OSINT", "Reconnaissance", "social platform"],
     "file": "operation-slither.md"
+  },
+  {
+    "slug": "thm-operation-slither-walkthrough",
+    "title": "TryHackMe: Operation Slither — Full Walkthrough",
+    "category": "TryHackMe",
+    "difficulty": "Easy",
+    "date": "2026-11-17",
+    "summary": "Level up your OSINT skill.",
+    "tags": ["OSINT", "Reconnaissance", "social platform"],
+    "file": "operation-slither.md"
   }
 ]
