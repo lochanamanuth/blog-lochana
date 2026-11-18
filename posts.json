@@ -15,8 +15,8 @@
     "category": "TryHackMe",
     "difficulty": "Easy",
     "date": "2026-11-17",
-    "summary": "Quick-reference payloads and methodology for testing login forms, UNION-based extraction, and blind SQLi.",
-    "tags": ["SQLi", "WebApp", "OWASP", "Cheatsheet"],
+    "summary": "Level up your OSINT skill.",
+    "tags": ["OSINT", "Reconnaissance", "social"],
     "file": "operation-slither.md"
   }
 ]
