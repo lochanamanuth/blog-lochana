@@ -20,13 +20,13 @@
     "file": "operation-slither.md"
   },
   {
-    "slug": "thm-bypass-disable-functions-walkthrough",
-    "title": "TryHackMe: Bypass Disable Functions — Full Walkthrough",
+    "slug": "thm-sudo-security-bypass-walkthrough",
+    "title": "TryHackMe: Sudo Security Bypass — Full Walkthrough",
     "category": "TryHackMe",
     "difficulty": "Info",
     "date": "2026-11-18",
-    "summary": "Practice bypassing disabled dangerous features that run operating system commands or start processes.",
-    "tags": ["PHP", "File Upload", "vulnerability"],
-    "file": "operation-slither.md"
+    "summary": "Exploring CVE-2019-14287 in the Unix Sudo Program.",
+    "tags": ["CVE-2019-14287", "sudo", "exploit", "unix"],
+    "file": "sudo-security-bypass.md"
   }
 ]
