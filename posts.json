@@ -28,16 +28,6 @@
     "summary": "Exploring CVE-2019-14287 in the Unix Sudo Program.",
     "tags": ["CVE-2019-14287", "sudo", "exploit", "unix"],
     "file": "sudo-security-bypass.md"
-  },
-  {
-    "slug": "the-dark-psychology-of-cyber-attacks",
-    "title": "Research: The Dark Psychology of Cyber Attacks",
-    "category": "Research",
-    "difficulty": "Info",
-    "date": "2026-11-19",
-    "summary": "An Empirical Analysis of Psychological Triggers in Phishing Success Rates.",
-    "tags": ["Research", "Phishing,", "Human Vulnerability", "Social Engineering"],
-    "file": "the-dark-psychology-of-cyber-attacks.md"
   }
   
 ]
