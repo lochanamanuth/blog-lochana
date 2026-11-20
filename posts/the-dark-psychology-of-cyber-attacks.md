@@ -1,4 +1,3 @@
-# The Dark Psychology of Cyber Attacks: An Empirical Analysis of Psychological Triggers in Phishing Success Rates
 
 **Author:** Lochana Manuth  
 **Date:** February 18, 2026  
